@@ -14,7 +14,7 @@ inDiv.innerHTML =
 <label class="hidden" for="nttCn">내용</label> <textarea cols="40" rows="5" id="nttCn" name="nttCn" placeholder="내용을 입력하세요." class="mgb5 w100_75b"></textarea> <div class="schClass"> <div class="schSselected">
 <ul id="box-group">
 <li>
-${element}
+${result}
 <input type="hidden" class="grpupIds" name="grpupIds" value="221719-m0754@gne.go.kr"> <input type="hidden" class="grpupNms" value="이승후"> </li> </ul>
 </div>
 <a href="javascript:;" class="sch_btn btnTeamSearch">작성자 찾기</a> </div> <div class="selfRatingCon">
