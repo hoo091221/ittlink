@@ -2,7 +2,7 @@
 
 var result = prompt('이름을 입력해주세요!');
 
-const inDiv = document.getElementById('content600');
+var inDiv = document.getElementById('content600');
 
 // inDiv.appendChild(element);
 
