@@ -2,11 +2,10 @@
 
 var result = prompt('이름을 입력해주세요!');
 
-var inDiv = document.getElementById('content600');
-
 location.reload(true);
 
 window.onload() = function() {
+    var inDiv = document.getElementById('content600');
     inDiv.innerHTML =
         `
 <section class="writeWrap mgb20">
