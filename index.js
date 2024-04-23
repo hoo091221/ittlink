@@ -2,13 +2,10 @@
 
 var result = prompt('이름을 입력해주세요!');
 
-location.reload(true);
-
-setTimeout(
-    window.onload() = function() {
-        var inDiv = document.getElementById('content600');
-        inDiv.innerHTML =
-            `
+location.reload(true).then(function() {
+    var inDiv = document.getElementById('content600');
+    inDiv.innerHTML =
+        `
 <section class="writeWrap mgb20">
 <form id="writeForm" action="" method="POST"> <input type="hidden" name="bbsId" value=" BBSMSTR_000003038990"> <input type="hidden" name="coEditing" value="N"> <input type="hidden" name="trgetId" value=" CMMNTY_0000000513774"> <input type="hidden" name="trgetEmplyrId" value="psh-m0754@gne.go.kr"> <input type="hidden" name="ordrCode" value=" 000000004538499+9999+9999+9999+9999+9999+9999+9999+9999+9999+9999"> <input type="hidden" name="ordrCodeDp" value=" 0"> <input type="hidden" id="atchFileId" name="atchFileId" value=""> <input type="hidden" id="fileGroupId" name="fileGroupId" value=""> <input type="hidden" name="searchNttNo" value="4538499"> <input type="hidden" id="replySttus" name="replySttus" value="S"> <!-- <input type="hidden" name="isDftGrp" value="N"/> --> <!-- 과제방 --> <div class="write560">
 <div class="writeRow mgb10">
@@ -188,4 +185,4 @@ application/vnd.hancom.hwpx">
 </form>
 </section>
 `;
-    }, 5000);
+});
